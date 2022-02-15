@@ -20,8 +20,8 @@ function parse(text: string): FlagsAndOptions {
     i++
   ) {
     const char: string = text[i],
-      charPrev: string = text[i - 1],
-      charNext: string = text[i + 1];
+      charPrev: string | undefined = text[i - 1],
+      charNext: string | undefined = text[i + 1];
 
     if (isParsing) {
       if (char === ' ' || char === undefined) {
