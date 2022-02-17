@@ -11,16 +11,18 @@ Although only a single implementation of Opteric for a programming language is a
 
 1. Fork the repository.
 
+2. Clone the forked repository.
+
 ```console
-$ git clone https://github.com/VoltrexMaster/opteric
+$ git clone <URL to your forked repository>
 ```
 
-2. Inspect the JavaScript implementation of Opteric found in the `javascript` directory.
+3. Inspect the JavaScript implementation of Opteric found in the `javascript` directory.
 
-3. At least run the JavaScript implementation using the [Node.js](https://nodejs.org) runtime and see how the Opteric works and behaves.
+4. At least run the JavaScript implementation using the [Node.js](https://nodejs.org) runtime and see how the Opteric works and behaves.
 
-4. Implement Opteric based off of it's JavaScript implementation.
+5. Implement Opteric based off of it's JavaScript implementation.
 
-5. Create pull request.
+6. Create pull request.
 
-6. Done!
+7. Done!
