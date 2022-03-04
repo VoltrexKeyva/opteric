@@ -1,0 +1,11 @@
+[package]
+name = "opteric"
+description = "A standard and blazing fast Flags and Options Parser written in various programming languages."
+license = "MIT"
+repository = "https://github.com/VoltrexMaster/opteric"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
