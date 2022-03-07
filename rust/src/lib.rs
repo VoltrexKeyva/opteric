@@ -67,10 +67,10 @@ pub fn opteric(input: &String) -> (HashMap<String, Option<String>>, String) {
             }
             
             if content.len() == 0 {
-                if ch_prev == None {
-                    content = input.clone();
-                } else {
-                    content = input[0..truncate_len].to_string();
+                content = input.clone();
+                
+                if ch_prev != None {
+                    content.truncate(truncate_len);
                 }
             }
             
