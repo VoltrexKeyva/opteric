@@ -1,6 +1,6 @@
 # Opteric
 
-A tiny, simple, and fast command-line arguments reader for Rust.
+A tiny, simple, and fast command-line arguments reader for Rust. Maintained by [null8626](https://github.com/null8626).
 
 Use the wrapper:
 ```rs
