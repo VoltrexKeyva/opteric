@@ -5,7 +5,7 @@ A tiny, simple, and fast command-line arguments reader for Rust.
 Use the wrapper:
 ```rs
 extern crate opteric;
-use opteric::{Iterator, Opteric};
+use opteric::Opteric;
 use std::env;
 
 fn main() {
