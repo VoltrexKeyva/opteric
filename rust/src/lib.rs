@@ -16,6 +16,11 @@ pub struct Opteric {
 }
 
 impl<'a> Opteric {
+  #[inline]
+  pub fn new<I: iter::Iterator<Item = String>>(it: I) -> Self {
+    Iterator::from(it).collect::<Self>()
+  }
+  
   pub fn get(&'a self, key: &str) -> Value<'a> {
     if let Some(ref exists) = self.inner_map.get(key) {
       if let Some(ref value) = exists {
