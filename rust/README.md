@@ -12,7 +12,7 @@ fn main() {
   let mut args = env::args();
   args.next().unwrap(); // skip first value - it's the path to the executable
   
-  // equivalent of Iterator::from(args).collect::<Opteric>()
+  // equivalent of opteric::Iterator::from(args).collect::<Opteric>()
   println!("{}", Opteric::new(args));
 }
 ```
